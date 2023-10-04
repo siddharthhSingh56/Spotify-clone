@@ -33,8 +33,19 @@ overflow: hidden;
     background-color: #121212;
     border-radius: 1rem;
     margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding: 0.5rem;
+
 }
-.home{
+
+.nav-option{
+
+    
+}
+/* .home{
     
     margin: 12px;
     padding: 10px;
@@ -45,4 +56,4 @@ overflow: hidden;
     margin: 12px;
     padding: 10px;
     
-}
+} */
