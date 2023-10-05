@@ -15,23 +15,142 @@
     <div class="main">
         <div class="sidebar">
             <div class="nav">
-                <div class="nav-option">
-                    <div class="home">
+                <div class="nav-option" style="opacity: 1;">
                         <i class="fa-solid fa-house"></i>
-                        <a href="#" style="color: antiquewhite;">Home</a>
-                    </div>
-                    
+                        <a href="#" >Home</a>
                 </div>
-                <div class="nav-option">
-                    <div class="library">
+                <div class="nav-option" >
                         <i class="fa-solid fa-magnifying-glass"></i>
-                        <a href="#" style="color: aliceblue;">Search</a>
+                        <a href="#" >Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-options nav-option" >
+                        <img src="./assets/library_icon.png">
+                        <a href="#" >Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy , we'll help you</p>
+                        <button class="badge">Create Playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcast to follow</p>
+                        <p class="box-p2">Wu'll keep you updated on new episodes </p>
+                        <button class="badge">Browse podcasts</button>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="main-content">maincontent </div>
-        <div class="music-player">music player</div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                <img src="./assets/backward_icon.png" alt="bkwrd">
+                <img src="./assets/forward_icon.png" alt="fwd" class="hide">
+                </div>
+                <div class="sticky-nav-options">
+                <button class="badge hide" >Explore Premium</button>
+                <button class="badge install"><i class="fa-solid fa-download"></i>Install App</button>
+                <i class="fa-regular fa-bell"></i>
+                <i class="fa-regular fa-user"></i>
+                </div>
+                
+                
+            </div>
+            <div class="cards">
+                <h2>Recently Played</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img class="card-img" src="./assets/card1img.jpeg"> 
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updated of the most played...</p>
+                    </div>
+                </div>
+                <h2>Trending now near you</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img class="card-img" src="./assets/card2img.jpeg"> 
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updated of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="./assets/card3img.jpeg"> 
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updated of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="./assets/card4img.jpeg"> 
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updated of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="./assets/card1img.jpeg"> 
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updated of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="./assets/card5img.jpeg"> 
+                        <p class="card-title">Top Songs - Global</p>
+                        <p class="card-info">Your daily updated of the most played...</p>
+                    </div>
+                </div>
+                <h2></h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img class="card-img" src="./assets/card6img.jpeg"> 
+                        <p class="card-title">Top Songs - India</p>
+                        <p class="card-info">Your daily updated of the most played...</p>
+                    </div>
+                </div>
+                <br><br><br><br><hr><br><br><br><br><br><br><br><br><br><br>
+
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <div class="album-picture">
+                    <img src="./assets/album1.jpeg" class="img-album">
+                </div>
+                <div class="album-text">
+                    <p class="album-title" style="opacity: 1; margin-top: 1rem;" >Bajrang Baan<p>
+                    <p class="album-info">Hariharan</p>
+                </div>
+                <div class="album-like" >
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./assets/player_icon1.png" class="player-control-icon">
+                    <img src="./assets/player_icon2.png" class="player-control-icon">
+                    <img src="./assets/player_icon3.png" class="player-control-icon play-icon" style="height: 2rem; opacity: 1;">
+                    <img src="./assets/player_icon4.png" class="player-control-icon">
+                    <img src="./assets/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1" >
+                    <span class="tot-time">3:33</span>
+                    
+                </div>
+            </div>
+            <div class="controls">
+                <i class="fa-solid fa-display" style="margin-left: 3rem;"></i>
+                <i class="fa-solid fa-microphone-lines"></i>
+                <i class="fa-solid fa-list-ul"></i>
+                <i class="fa-solid fa-house-signal"></i>
+                <i class="fa-solid fa-volume-high"></i>
+                <input type="range" style="margin-left: 0.5rem;">
+                <i class="fa-regular fa-share-from-square"></i> 
+            </div>
+        </div>
     </div>
 </body>
 </html>
